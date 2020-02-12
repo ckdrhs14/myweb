@@ -1,0 +1,53 @@
+.main_gnb {float:right;}
+.main_gnb > li {float:left; list-style:none; padding:25px 15px 25px 15px; text-align:center; font-size:113px;}
+.main_gnb > li > span {color:#333 !important; text-decoration:none;}
+.main_gnb > li > ul > li > span {color:#444 !important;}
+.main_gnb img {width:15px;}
+.bk {display:none;}
+
+
+.sub {margin:0 !important;}
+.menu li a {font-size:14px !important; padding:5px !important;}
+.sub li a {text-indent:10px; font-size:11px !important;}
+
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#full_white {background:#fff; width:100%; height:250px; position:absolute; left:0; top:0; border-bottom:1px solid #ccc;}
+#full_white {dis1play:none;}
+
+.menubar li ul {
+background: rgb(255,255,255);
+display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
+height:auto;
+padding:0px;
+margin:0px;
+border:0px;
+position:absolute;
+width:100px;
+z-index:200;
+list-style:none;
+font-size:12px;
+text-align:left;
+margin-left:-15px;
+margin-top:10px;
+
+border-radius:10px 10px 10px 10px;
+overflow:hidden;
+}
+
+.menubar li > ul > li > a {text-decoration:none; padding:10px 0; padding-left:15px; display:block; border-bottom:1px solid #ececec;}
+.menubar li > ul > li > a:hover {background:#ececec; color:#ea0d43 !important;}
+
+.translate a {text-decoration:none;}
+.menubar > .translate > .translate_KR {position:absolute; right:65px; top:-10px; color:#fff;}
+.menubar > .translate > .translate_EN {position:absolute; right:35px; top:-10px; color:#fff;}
+
+
+.fh5co-menu {background:#fff !important;}

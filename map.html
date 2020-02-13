@@ -260,7 +260,7 @@
 								<p class="fh5co-sub to-animate" style="font-size:13px;">서울특별시 강남구 도산대로 37길 17(신사동 594-15)</p>
 							</div>
 							<div class="col-md-12 col-xs-12">
-								<div id="map" style="width:100%;height:400px; border-radius:15px; border:1px solid #d9d9d9;"></div>
+								<div id="map" style="width:100%;height:400px; border-radius:15px; border:1px solid #ea0d44;"></div>
 
 								<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=943fc4b139fb1a68a99e942844689a1b"></script>
 								<script>
@@ -328,7 +328,7 @@
 								<p class="fh5co-sub to-animate" style="font-size:13px;">서울시 용산구 원효로3가 49-5 원기빌딩 2층</p>
 							</div>
 							<div class="col-md-12 col-xs-12">
-								<div id="map2" style="width:100%;height:400px; border-radius:15px; border:1px solid #d9d9d9;"></div>
+								<div id="map2" style="width:100%;height:400px; border-radius:15px; border:1px solid #ea0d44;"></div>
 
 								<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=943fc4b139fb1a68a99e942844689a1b"></script>
 								<script>
@@ -364,7 +364,32 @@
 								<p class="fh5co-sub to-animate" style="font-size:13px;">경기도 부천시 오정동 810-1 2층 AS센터</p>
 							</div>
 							<div class="col-md-12 col-xs-12">
-								
+								<div id="map3" style="width:100%;height:400px; border-radius:15px; border:1px solid #ea0d44;"></div>
+
+								<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=943fc4b139fb1a68a99e942844689a1b"></script>
+								<script>
+								var mapContainer3 = document.getElementById('map3'), // 지도를 표시할 div 
+								    mapOption3 = { 
+									center: new kakao.maps.LatLng(37.528011, 126.775334), // 지도의 중심좌표
+									level: 3 // 지도의 확대 레벨
+								    };
+
+								var map3 = new kakao.maps.Map(mapContainer2, mapOption2); // 지도를 생성합니다
+
+								// 마커가 표시될 위치입니다 
+								var markerPosition3  = new kakao.maps.LatLng(37.528011, 126.775334); 
+
+								// 마커를 생성합니다
+								var marker = new kakao.maps.Marker({
+								    position: markerPosition3
+								});
+
+								// 마커가 지도 위에 표시되도록 설정합니다
+								marker.setMap(map3);
+
+								// 아래 코드는 지도 위의 마커를 제거하는 코드입니다
+								// marker.setMap(null);    
+								</script>
 							</div>
 
 							<div class="clearfix visible-sm-block"></div>							

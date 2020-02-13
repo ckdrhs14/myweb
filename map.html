@@ -262,11 +262,11 @@
 							<div class="col-md-12 col-xs-12">
 								<div id="map" style="width:100%;height:350px;"></div>
 
-								<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=발급받은 APP KEY를 사용하세요"></script>
+								<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=943fc4b139fb1a68a99e942844689a1b"></script>
 								<script>
 								var mapContainer = document.getElementById('map'), // 지도의 중심좌표
 								    mapOption = { 
-									center: new kakao.maps.LatLng(33.451475, 126.570528), // 지도의 중심좌표
+									center: new kakao.maps.LatLng(37.534345, 126.960225), // 지도의 중심좌표
 									level: 3 // 지도의 확대 레벨
 								    }; 
 
@@ -275,7 +275,7 @@
 								// 지도에 마커를 표시합니다 
 								var marker = new kakao.maps.Marker({
 								    map: map, 
-								    position: new kakao.maps.LatLng(33.450701, 126.570667)
+								    position: new kakao.maps.LatLng(37.534345, 126.960225)
 								});
 
 								// 커스텀 오버레이에 표시할 컨텐츠 입니다
@@ -332,30 +332,30 @@
 
 								<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=943fc4b139fb1a68a99e942844689a1b"></script>
 								<script>
-									var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-									    mapOption = {
+									var mapContainer2 = document.getElementById('map'), // 지도를 표시할 div 
+									    mapOption2 = {
 										center: new kakao.maps.LatLng(37.534355, 126.960225), // 지도의 중심좌표
 										level: 3, // 지도의 확대 레벨
 										mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
 									    }; 
 
 									// 지도를 생성한다 
-									var map = new kakao.maps.Map(mapContainer, mapOption); 
+									var map2 = new kakao.maps.Map(mapContainer2, mapOption2); 
 
 									// 지도 타입 변경 컨트롤을 생성한다
-									var mapTypeControl = new kakao.maps.MapTypeControl();
+									var mapTypeControl2 = new kakao.maps.MapTypeControl2();
 
 									// 지도의 상단 우측에 지도 타입 변경 컨트롤을 추가한다
-									map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);	
+									map.addControl2(mapTypeControl2, kakao.maps.ControlPosition.TOPRIGHT);	
 
 									// 지도에 확대 축소 컨트롤을 생성한다
-									var zoomControl = new kakao.maps.ZoomControl();
+									var zoomControl2 = new kakao.maps.ZoomControl2();
 
 									// 지도의 우측에 확대 축소 컨트롤을 추가한다
 									map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
 
 									// 지도 클릭 이벤트를 등록한다 (좌클릭 : click, 우클릭 : rightclick, 더블클릭 : dblclick)
-									kakao.maps.event.addListener(map, 'click', function (mouseEvent) {
+									kakao.maps.event.addListener(map2, 'click', function (mouseEvent) {
 										console.log('지도에서 클릭한 위치의 좌표는 ' + mouseEvent.latLng.toString() + ' 입니다.');
 									});	
 									// 마커 이미지의 주소
@@ -372,7 +372,7 @@
 									var marker = new kakao.maps.Marker({
 									    position: new kakao.maps.LatLng(37.534355, 126.960225), // 마커의 좌표
 									    image : markerImage, // 마커의 이미지
-									    map: map // 마커를 표시할 지도 객체
+									    map: map2 // 마커를 표시할 지도 객체
 									});
 
 								</script>

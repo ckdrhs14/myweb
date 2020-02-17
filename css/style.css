@@ -7600,6 +7600,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9;
   background: #3b3d40;
+  opacity:.7;
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero {

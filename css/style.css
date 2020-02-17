@@ -9166,19 +9166,19 @@ Main Components
   -ms-transform: translateY(-50%) rotate(180deg);
   -o-transform: translateY(-50%) rotate(180deg);
   transform: translateY(-50%) rotate(180deg);
-  background: url("../images/icon/arrow.png") no-repeat;
+  background: url("http://kokiripower.speedgabia.com/2020/kokiri/icon/arrow.png") no-repeat;
   background-size: 16px 16px;
   background-position:9px 7px;
 }
 .cd-timeline-navigation a.next {
   right: 0;
-  background: url("../images/icon/arrow.png") no-repeat;
+  background: url("http://kokiripower.speedgabia.com/2020/kokiri/icon/arrow.png") no-repeat;
   background-size: 16px 16px;
   background-position:9px 7px;
 }
 .no-touch .cd-timeline-navigation a:hover {
   border-color: #ea0d44;
-  background: url("../images/icon/arrow_hover.png") no-repeat;
+  background: url("http://kokiripower.speedgabia.com/2020/kokiri/icon/arrow_hover.png") no-repeat;
   background-size: 16px 16px;
   background-position:9px 7px;
   transition:1s all;
@@ -9191,7 +9191,7 @@ Main Components
 }
 .no-touch .cd-timeline-navigation a.inactive:hover {
   border-color: #dfdfdf;
-  background: url("../images/icon/arrow.png") no-repeat;
+  background: url("http://kokiripower.speedgabia.com/2020/kokiri/icon/arrow.png") no-repeat;
   background-size: 16px 16px;
   background-position:9px 7px;
 }

@@ -9401,6 +9401,7 @@ Main Components
     .top_bt{
         display:none !important;
     }
+    .fh5co-bg-section video {display:none;}
 }
 
 .logo_bk {display:none;}

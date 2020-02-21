@@ -1,7 +1,5 @@
 @CHARSET "UTF-8";
-*{
-	font-family: 'Malgun Gothic' !important;
-}
+
 .header-wrap{
 	position: relative;
     top: 10;

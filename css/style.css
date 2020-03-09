@@ -7430,7 +7430,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   margin-top: 0px;
   top: 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ececec;
   -webkit-transform: translateY(0%);
   -moz-transform: translateY(0%);
   -ms-transform: translateY(0%);
@@ -7839,7 +7839,12 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-subscribe {
   padding: 2em 0 1em 0;
   position: relative;
-  background: #ea0d43;
+  background: #fff;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05);
+  z-index:999;
 }
 #fh5co-subscribe .form-control {
   color: #fff;
@@ -8363,12 +8368,12 @@ pre {
 .btn {
   font-family: "Montserrat", arial, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   margin-bottom: 20px;
-  -webkit-border-radius: 30px;
+  -webkit-border-radius: 5px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
-  border-radius: 30px;
+  border-radius: 5px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -8382,7 +8387,7 @@ pre {
 }
 .btn:hover, .btn:focus, .btn:active {
   outline: none !important;
-  background: #f52d5e !important;
+  background: #EA0D43 !important;
   border-color: transparent !important;
 }
 .btn:hover {
@@ -9489,6 +9494,13 @@ table tr:last-child {border-bottom:1px solid #ddd;}
 .news_relative p {margin:1px 0;}
 .news_relative > .news_header {font-size:16px;}
 
+.btn_box {padding:0px !important;}
+.popup_btn {background:#000; font-size:12px; margin-left:5px;}
+.popup_btn:first-child {margin-left:25px;}
+.popup_btn:hover {background:#444 !important;}
+.popup_btn:focus {background:#444 !important;}
+.popup_btn:active {background:#444 !important;}
+
 
 
 .carousel-indicators li {padding:2px 15px; background:#acacac; border-radius:3px; cursor:pointer; border:none;}
@@ -9609,6 +9621,8 @@ table tr:last-child {border-bottom:1px solid #ddd;}
 	.news_main {font-size:12px; line-height:20px;}
 	.news_header img {width:100%;}
 	.breadcrumb {right:0; font-size:11px;}
+	#fh5co-subscribe {display:none;}
+	.carousel-control {width:10%;}
 }
 
 .logo_bk {display:none;}
